@@ -1,18 +1,18 @@
-#Exploration Activity 1
+# Exploration Activity 1
 
 
-##Library
+## Library
 I utilised the image library in Racket
 
 
-##What is the image library in Racket
+## What is the image library in Racket
 The image library provides a number of basic image construction functions, along with combinators for building more complex images out of existing images. 
 Basic images include various typical shapes, lines and text, as well as bitmaps. 
 It also defines positioning functions such as rotate, scale, flip, and overlay/underlay etc.
 
 
-###How do you use it
-####Basic shape and line functions
+### How do you use it
+#### Basic shape and line functions
 As stated early it can create basic images of typical shapes such as circle, square etc.. and lines
 In most shape defintion it will have have functions defined in this manner
 
@@ -33,7 +33,7 @@ This constructs an image representing a line segment that connects the points (0
 The use of the x and y axis are key when it comes to working with line functions. 
 Lines can take in a color or a pen struct. The pen struct specifies how the drawing library draws lines more elaborately
 
-####Positioning and editing images
+#### Positioning and editing images
 This libray deals with edit and positioning of these images.
 There are numerous functions definition that can be applied on an image and varied parameters required dependinf on function.
 I will cover a few that I used in my sample code.
@@ -54,7 +54,7 @@ There are also functions that can affect already existing images such as
   4. `(flip-vertical image)` - this flips an image top to bottom
   5. `(crop x y width height image)` - this crops image to the rectangle with the upper left at the point (x,y) and with width and height.
 
-####Bitmaps
+#### Bitmaps
 DrRacket’s Insert Image ... menu item allows you to insert images into your program text, and those images are treated as images for this library.
 These images re represented as bitmaps i.e., an array of colors
 This means that scaling and rotating them loses fidelity in the image and is significantly more expensive than with the other shapes.
@@ -67,19 +67,19 @@ If it is an identifier, it is treated like a require spec and used to refer to a
 Bitmaps can take images from the web or a relative path.
 
 
-####Image properties and predicates
+#### Image properties and predicates
 This libray allows you to get the various specification of different images such as color, width, height etc..
 To use these function just specify what you want and the image. For example:
 `(image-height i)` 
 
-####Text
+#### Text
 This library also allows for the creation of detailed text. 
 This basically means you can specify various parameters for your text such as the style, the size, underline etc..
 A basic text function looks like this:
 `(text/font string font-size color face family style weight underline?)`
 
 
-##Functionalities of library
+## Functionalities of library
 Here are some screenshots of code and the output
 
 ![Screenshot](Function1.png)
@@ -107,11 +107,11 @@ Here are some screenshots of code and the output
 ![Screenshot](Function12.png)
 
 
-##When was it created
+## When was it created
 I could find any information on when or who created the library...
 
 
-##Why did I select this library
+## Why did I select this library
 One of the programming questions on racket required the use of images and although this image library was not used for the task, 
 it was interesting to see how easily racket worked with images. I couldn't imagine doing the stuff I could do with images on racket on another language. 
 That being said I do not know the scope of image manipulation on other languages but I just feel like it way easier with racket and very consise. 
