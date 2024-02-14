@@ -34,16 +34,15 @@ input: **(rainbowShapes 50 6 "solid" )**
 output:   
 ![Screenshot](Sample2.png)
 
-input3: **(rainbowShapes 50 0 "solid" )**   
-output3:     
+input: **(rainbowShapes 50 0 "solid" )**   
+output:     
 ![Screenshot](Sample3.png)
 
-input4: **(rainbowShapes 50 1 "solid" )**   
-output4:    
+input: **(rainbowShapes 50 1 "solid" )**   
+output:    
 ![Screenshot](Sample4.png)
 
-input5: **(rainbowShapes 50 2 "solid" )**  
-output5:    
+input: **(rainbowShapes 50 2 "solid" )**  
+output:    
 ![Screenshot](Sample5.png)
-
 
