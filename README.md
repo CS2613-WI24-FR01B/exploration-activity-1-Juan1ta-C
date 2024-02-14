@@ -2,8 +2,8 @@
 
 
 ## Library
-I utilised the **image** library in Racket
-This is how you implement the library
+I utilised the **image** library in Racket.     
+This is how you implement the library  
 **`(require 2htdp/image)`**
 
 
@@ -26,23 +26,23 @@ n = 2 produces a curved line.
 
 
 ## Sample input and output
-input1: (rainbowShapes 50 8 "solid" )
-output1:    
+input: **(rainbowShapes 50 8 "solid" )**   
+output:    
 ![Screenshot](Sample1.png)
 
-input2: (rainbowShapes 50 6 "solid" )
-output2:   
+input: **(rainbowShapes 50 6 "solid" )**  
+output:   
 ![Screenshot](Sample2.png)
 
-input3: (rainbowShapes 50 0 "solid" )
+input3: **(rainbowShapes 50 0 "solid" )**   
 output3:     
 ![Screenshot](Sample3.png)
 
-input4: (rainbowShapes 50 1 "solid" )
+input4: **(rainbowShapes 50 1 "solid" )**   
 output4:    
 ![Screenshot](Sample4.png)
 
-input5: (rainbowShapes 50 2 "solid" )
+input5: **(rainbowShapes 50 2 "solid" )**  
 output5:    
 ![Screenshot](Sample5.png)
 
