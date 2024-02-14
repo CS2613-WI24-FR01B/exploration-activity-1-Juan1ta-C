@@ -1,13 +1,13 @@
-#Exploration Activity 1
+# Exploration Activity 1
 
 
-##Library
+## Library
 I utilised the **image** library in Racket
 This is how you implement the library
 **`(require 2htdp/image)`**
 
 
-##Running the program
+## Running the program
 My program can be run from the DrRacket application. 
 
   1. Start the DrRacket application 
@@ -15,7 +15,7 @@ My program can be run from the DrRacket application.
   3. Click on the run button in the top right corner
   
   
-##Purpose
+## Purpose
 My program recursively creates an underlay of polygons with a specificied size, mode and reducing n sides as specified by function call in rainbow colors.
 It also specially handles the case of n = 0, 1 and 2 as there a no polygons with that number of sides.
 n = 0 produces a smiley face (primarly a circle denoting the fact that a circle has no sides).
@@ -25,9 +25,9 @@ n = 2 produces a curved line.
 > ***Side note*** This code only runs for the range of n (0-8) due to specified color list.
 
 
-##Sample input and output
+## Sample input and output
 input1: (rainbowShapes 50 8 "solid" )
-output1: 
+output1: \n
 ![Screenshot](Sample1.png)
 
 input2: (rainbowShapes 50 6 "solid" )
