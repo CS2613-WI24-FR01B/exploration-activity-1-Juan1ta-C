@@ -27,18 +27,23 @@ n = 2 produces a curved line.
 
 ##Sample input and output
 input1: (rainbowShapes 50 8 "solid" )
-output1: ![Screenshot](Sample1.png)
+output1: 
+![Screenshot](Sample1.png)
 
 input2: (rainbowShapes 50 6 "solid" )
-output2: ![Screenshot](Sample2.png)
+output2:
+![Screenshot](Sample2.png)
 
 input3: (rainbowShapes 50 0 "solid" )
-output3: ![Screenshot](Sample3.png)
+output3: 
+![Screenshot](Sample3.png)
 
 input4: (rainbowShapes 50 1 "solid" )
-output4: ![Screenshot](Sample4.png)
+output4: 
+![Screenshot](Sample4.png)
 
 input5: (rainbowShapes 50 2 "solid" )
-output5: ![Screenshot](Sample5.png)
+output5: 
+![Screenshot](Sample5.png)
 
 
