@@ -118,13 +118,13 @@ That being said I do not know the scope of image manipulation on other languages
 So when deciding on a library I chose this image library to learn more about what racket could do with images.
 
 
-##How did learning the library affect my learning of Racket
+## How did learning the library affect my learning of Racket
 Well I can say I become more acclimtized to the Racket syntax and general procedures. 
 I can also say that I understand more of the recursion that is easily used in Racket.
 My knowledge of errors and debugging in Racket has also been imapcted.
 
 
-##Overall experience 
+## Overall experience 
 I would definitely recommend this library to someone. Is is easy to learn and use and I'd say working with it is a fun experience
 The one thing that I couldn't quite understand or figure out is using this library in a real world situation. 
 It is fun to work with but where exactly would I need to work with this library.
