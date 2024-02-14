@@ -2,7 +2,7 @@
 
 
 ## Library
-I utilised the image library in Racket
+I utilised the **image** library in Racket
 
 
 ## What is the image library in Racket
@@ -73,9 +73,9 @@ To use these function just specify what you want and the image. For example:
 `(image-height i)` 
 
 #### Text
-This library also allows for the creation of detailed text. 
-This basically means you can specify various parameters for your text such as the style, the size, underline etc..
-A basic text function looks like this:
+This library also allows for the creation of detailed text.    
+This basically means you can specify various parameters for your text such as the style, the size, underline etc..   
+A basic text function looks like this:   
 `(text/font string font-size color face family style weight underline?)`
 
 
@@ -112,10 +112,7 @@ I could find any information on when or who created the library...
 
 
 ## Why did I select this library
-One of the programming questions on racket required the use of images and although this image library was not used for the task, 
-it was interesting to see how easily racket worked with images. I couldn't imagine doing the stuff I could do with images on racket on another language. 
-That being said I do not know the scope of image manipulation on other languages but I just feel like it way easier with racket and very consise. 
-So when deciding on a library I chose this image library to learn more about what racket could do with images.
+One of the programming questions on racket required the use of images and although this image library was not used for the task, it was interesting to see how easily racket worked with images. I couldn't imagine doing the stuff I could do with images on racket on another language. That being said I do not know the scope of image manipulation on other languages but I just feel like it way easier with racket and very consise. So when deciding on a library I chose this image library to learn more about what racket could do with images.
 
 
 ## How did learning the library affect my learning of Racket
