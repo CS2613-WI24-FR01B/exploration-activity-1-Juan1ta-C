@@ -16,11 +16,11 @@ My program can be run from the DrRacket application.
   
   
 ## Purpose
-My program recursively creates an underlay of polygons with a specificied size, mode and reducing n sides as specified by function call in rainbow colors.
-It also specially handles the case of n = 0, 1 and 2 as there a no polygons with that number of sides.
-n = 0 produces a smiley face (primarly a circle denoting the fact that a circle has no sides).
-n = 1 produces a vertical line.
-n = 2 produces a curved line.
+My program recursively creates an underlay of polygons with a specificied size, mode and reducing n sides as specified by function call in rainbow colors.   
+It also specially handles the case of n = 0, 1 and 2 as there a no polygons with that number of sides.   
+n = 0 produces a smiley face (primarly a circle denoting the fact that a circle has no sides).   
+n = 1 produces a vertical line.    
+n = 2 produces a curved line.    
 
 > ***Side note*** This code only runs for the range of n (0-8) due to specified color list.
 
