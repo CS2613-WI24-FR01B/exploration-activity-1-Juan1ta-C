@@ -13,7 +13,7 @@ It also defines positioning functions such as rotate, scale, flip, and overlay/u
 
 ### How do you use it
 #### Basic shape and line functions
-As stated early it can create basic images of typical shapes such as circle, square etc.. and lines
+As stated early it can create basic images of typical shapes such as circle, square etc.. and lines. 
 In most shape defintion it will have have functions defined in this manner
 
 `(circle size mode color)`
