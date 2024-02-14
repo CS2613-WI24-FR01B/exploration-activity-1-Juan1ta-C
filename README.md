@@ -11,7 +11,7 @@ This is how you implement the library
 My program can be run from the DrRacket application. 
 
   1. Start the DrRacket application 
-  2. Open the .rkt file 
+  2. Open the **.rkt** file 
   3. Click on the run button in the top right corner
   
   
@@ -27,23 +27,23 @@ n = 2 produces a curved line.
 
 ## Sample input and output
 input1: (rainbowShapes 50 8 "solid" )
-output1: \n
+output1:    
 ![Screenshot](Sample1.png)
 
 input2: (rainbowShapes 50 6 "solid" )
-output2:
+output2:   
 ![Screenshot](Sample2.png)
 
 input3: (rainbowShapes 50 0 "solid" )
-output3: 
+output3:     
 ![Screenshot](Sample3.png)
 
 input4: (rainbowShapes 50 1 "solid" )
-output4: 
+output4:    
 ![Screenshot](Sample4.png)
 
 input5: (rainbowShapes 50 2 "solid" )
-output5: 
+output5:    
 ![Screenshot](Sample5.png)
 
 
