@@ -6,7 +6,7 @@ I utilised the **image** library in Racket
 
 
 ## What is the image library in Racket
-The image library provides a number of basic image construction functions, along with combinators for building more complex images out of existing images. 
+The **image** library provides a number of basic image construction functions, along with combinators for building more complex images out of existing images. 
 Basic images include various typical shapes, lines and text, as well as bitmaps. 
 It also defines positioning functions such as rotate, scale, flip, and overlay/underlay etc.
 
@@ -43,7 +43,7 @@ I will cover a few that I used in my sample code.
   3. `(beside i1 i2 is ...)` - this places numerous images in a horizontal row
   4. `(above i1 i2 is ...)` - this places numerous images in a vertical row
 
-For all these positioning functions, there are various alignments that can be specified such as right, left, middle, top bottom
+For all these positioning functions, there are various alignments that can be specified such as right, left, middle, top bottom   
 This could utilize the x and y axis.
 
 There are also functions that can affect already existing images such as 
